@@ -1,4 +1,4 @@
-package com.hoho.demo.c1
+package com.hoho.demo.base
 
 object Var {
   def main(args: Array[String]): Unit = {

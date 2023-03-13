@@ -1,4 +1,4 @@
-package com.hoho.demo.c1
+package com.hoho.demo.base
 
 /**
  * object 声明单例对象
