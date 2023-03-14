@@ -29,17 +29,17 @@ object MatchCaseTest {
   def main(args: Array[String]): Unit = {
     demo(2)
     processException(new NullPointerException())
-
-    try {
-      //     val lines01 = fromFile("/Users/lifen/Documents/ideaProject/ScalaTest/src/main/resources/a123.txt").mkString
-      1 / 0
-    } catch {
-      case e1: FileNotFoundException => println("FileNotFoundException   " + e1)
-      case e2: IOException => println("IOException   " + e2)
-      case e3: NullPointerException => println("NullPointerException   " + e3)
-      case e4: ArithmeticException => println("ArithmeticException   " + e4)
-      case _: Exception => println("Exception   " + _)
-    }
+//
+//    try {
+//      //     val lines01 = fromFile("/Users/lifen/Documents/ideaProject/ScalaTest/src/main/resources/a123.txt").mkString
+//      1 / 0
+//    } catch {
+//      case e1: FileNotFoundException => println("FileNotFoundException   " + e1)
+//      case e2: IOException => println("IOException   " + e2)
+//      case e3: NullPointerException => println("NullPointerException   " + e3)
+//      case e4: ArithmeticException => println("ArithmeticException   " + e4)
+//      case _: Exception => println("Exception   " + _)
+//    }
 
 
   }
