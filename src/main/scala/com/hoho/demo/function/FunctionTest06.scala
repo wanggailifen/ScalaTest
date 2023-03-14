@@ -6,9 +6,15 @@ object FunctionTest06 {
 
     def outer() = {
       def inner(): Unit = {
-
+        println("inner...")
       }
+
       inner _
     }
+
+    outer()()
+
+
+
   }
 }
