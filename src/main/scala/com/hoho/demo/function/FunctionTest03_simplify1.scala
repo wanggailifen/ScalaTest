@@ -1,6 +1,6 @@
 package com.hoho.demo.function
 
-object FunctionTest03 {
+object FunctionTest03_simplify1 {
   def main(args: Array[String]): Unit = {
     // TODO 1. 如果函数体中的逻辑代码需要返回，可以省略return关健字
     def test01(): String = {

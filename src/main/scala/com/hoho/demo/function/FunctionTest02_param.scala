@@ -1,6 +1,6 @@
 package com.hoho.demo.function
 
-object FunctionTest02 {
+object FunctionTest02_param {
   def main(args: Array[String]): Unit = {
 
     /**

@@ -1,6 +1,6 @@
 package com.hoho.demo.function
 
-object FunctionTest05 {
+object FunctionTest05_simplify2 {
   def main(args: Array[String]): Unit = {
     def test(a: Int, b: Int, f: (Int, Int) => Int): Unit = {
       val result = f(a, b)
@@ -29,12 +29,25 @@ object FunctionTest05 {
       f("zhangsan")
     }
 
+    def fun(name: String): Unit = {
+      println(name)
+    }
+
+    test01(fun)
+
     test01(name => {
       println(name)
     })
     test01(name => println(name))
     // 参数用_代替，并省略参数列表
     test01(println(_))
+
+    //TODO 使用_不能嵌套使用
+    // test01(println("zhangsan" + _))
+
+
+    // 这个写法不是至简原则 而只是一种巧合，因为scala刚好提供了默认的println方法。了；类似于 test01(fun)
     test01(println)
+    test01(fun)
   }
 }

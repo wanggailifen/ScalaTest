@@ -1,6 +1,6 @@
 package com.hoho.demo.function
 
-object FunctionTest06 {
+object FunctionTest06_Return {
   def main(args: Array[String]): Unit = {
     // TODO 将函数作为返回值来使用
 
@@ -13,8 +13,6 @@ object FunctionTest06 {
     }
 
     outer()()
-
-
 
   }
 }

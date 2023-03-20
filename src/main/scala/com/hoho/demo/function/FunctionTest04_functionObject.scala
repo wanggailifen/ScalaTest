@@ -1,6 +1,6 @@
 package com.hoho.demo.function
 
-object FunctionTest04 {
+object FunctionTest04_functionObject {
   def main(args: Array[String]): Unit = {
     /**
      * 函数也是对象，对象也是函数
