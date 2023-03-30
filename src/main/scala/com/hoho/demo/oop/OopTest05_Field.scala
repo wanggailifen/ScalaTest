@@ -15,10 +15,15 @@ object OopTest05_Field {
     5. 类的属性的权限都是 private 并且会同时生成公共的 get、set方法（只是名字不叫setXXX、getXXX）
     6. 当 访问\设置 属性时，等同于调用对象属性的 get\set 方法
     7. scala 提供注解@BeanProperty 来解决bean规范的问题 这样反编译以后就是setXXX、getXXX
+    8. 属性的权限修饰符如果采用private，对应的set、get方法也会加上private
+    9. @BeanProperty声明的属性不能加上private
      */
     val user = new User()
     println(user.name)
 
+    user.name = "张三"
+    user name_= "张三"
+    user name_$eq "张三"
   }
 
 
