@@ -3,7 +3,7 @@ package com {
     package demo {
       package hoho {
 
-        object Test01_Package {
+        object OopTest01_Package {
           def main(args: Array[String]): Unit = {
             /**
              * TODO 可以将包也当成对象
@@ -11,7 +11,7 @@ package com {
              *  ** scala中包名和物理路径没有关系
              * */
 
-            oop.testPackageObject()
+//            oop.testPackageObject()
 
           }
         }

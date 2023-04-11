@@ -1,6 +1,6 @@
 package com.hoho.demo.oop
 
-object OopTest_Override {
+object OopTest09_Override {
   def main(args: Array[String]): Unit = {
     /**
      * TODO 方法的重写
