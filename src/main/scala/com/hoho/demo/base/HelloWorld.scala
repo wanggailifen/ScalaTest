@@ -1,5 +1,7 @@
 package com.hoho.demo.base
 
+import org.apache.log4j.Logger
+
 /**
  * object 声明单例对象
  * scala语言是一个完全面向对象的语言，但是java中的静态语法不是面向对象的。
@@ -9,8 +11,10 @@ package com.hoho.demo.base
  * HelloWorld 单例对象名称，同时也是类名
  */
 object HelloWorld {
+  private val log: Logger = Logger.getLogger(this.getClass)
+
   def main(args: Array[String]): Unit = {
     System.out.println("Hello world")
-    println("Hello world")
+    log.info("Hello world")
   }
 }
