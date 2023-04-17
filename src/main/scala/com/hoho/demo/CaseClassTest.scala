@@ -2,6 +2,7 @@ package com.hoho.demo
 
 object CaseClassTest {
 
+
   class Person
 
   /**
