@@ -26,6 +26,30 @@ object Collection07_Tuple {
     println(t2._2)
     println(t2._3)
 
+    // 用索引方式访问
+    println(t2.productElement(0))
+    println(t2.productElement(1))
+    println(t2.productElement(2))
+
+    //    如果元组中的元素的数量为2，那么称之为对用元组。也称之为【键值对对象】
+    val t3 = ("a", 1)
+    val t4 = ("b", 2)
+    val tuple: (String, Int) = "a" -> 1
+
+
+    val map = Map(
+      ("a", 1),
+      ("b", 2)
+    )
+    println(map)
+
+    1 -> 2 -> 3 -> 4
+    (((1, 2), 3), 4)
+
+
+    for (kv <- map) {
+      println(kv._1 + "===" + kv._2)
+    }
   }
 
 
