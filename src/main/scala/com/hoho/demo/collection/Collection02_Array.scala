@@ -1,6 +1,6 @@
 package com.hoho.demo.collection
 
-object Colllection02_Array {
+object Collection02_Array {
 
   def main(args: Array[String]): Unit = {
     /**

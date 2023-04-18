@@ -1,6 +1,6 @@
 package com.hoho.demo.collection
 
-object Colllection01 {
+object Collection01 {
 
 
 
