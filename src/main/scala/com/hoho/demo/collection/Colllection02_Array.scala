@@ -52,6 +52,13 @@ object Colllection02_Array {
 
     println(array5.mkString(","))
     println(array6.mkString(","))
+
+    println("======")
+    // ++ 添加集合
+    val array7 = array1 ++: array2
+    println(array7.mkString(","))
+
+
   }
 
 
