@@ -14,7 +14,7 @@ object FunctionTest {
   val sayHelloFunc2 = (name: String) => println("hello " + name)
 
 
-  def greeting(func: (String) => Unit, name: String) {
+  def greeting(func: (String) => Unit, name: String) = {
     func(name)
   }
 
