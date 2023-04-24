@@ -2,6 +2,8 @@ package com.hoho.demo.matchtest
 
 object MatchTest03 {
   def main(args: Array[String]): Unit = {
+
+    // 把Array 换成 List也一样
     for (arr <- Array(
       Array(0),
       Array(1, 0),

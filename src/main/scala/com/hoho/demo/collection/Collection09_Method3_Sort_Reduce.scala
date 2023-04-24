@@ -3,7 +3,7 @@ package com.hoho.demo.collection
 /**
  * 集合通用方法
  */
-object Collection09_Method3 {
+object Collection09_Method3_Sort_Reduce {
 
 
   def main(args: Array[String]): Unit = {
