@@ -4,6 +4,10 @@ object Generic04 {
 
   def main(args: Array[String]): Unit = {
 
+    // def f[A : B](a: A) = println(a)
+    // 等同于 def f[A](a:A)(implicit arg:B[A])=println(a)
+
+
     // 泛型的上下文限定 = 隐式转换 + 泛型
     def function[A: Test](a: A) = {
       println(a)

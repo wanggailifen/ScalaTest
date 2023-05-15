@@ -1,4 +1,4 @@
-package com.hoho.demo
+package com.hoho.demo.scala09_other
 
 /**
  * Option 有两种值 some表示有值，none表示没有值

@@ -1,4 +1,4 @@
-package com.hoho.demo.regex
+package com.hoho.demo.scala09_other.regex
 
 object RegexTest01 {
   def main(args: Array[String]): Unit = {

@@ -1,4 +1,4 @@
-package com.hoho.demo
+package com.hoho.demo.scala09_other
 
 import scala.language.implicitConversions
 
