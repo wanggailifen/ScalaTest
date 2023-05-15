@@ -1,4 +1,4 @@
-package com.hoho.demo.base
+package com.hoho.demo.scala01_base
 
 import org.apache.log4j.Logger
 
@@ -10,7 +10,7 @@ import org.apache.log4j.Logger
  *
  * HelloWorld 单例对象名称，同时也是类名
  */
-object HelloWorld {
+object Base01_HelloWorld {
   private val log: Logger = Logger.getLogger(this.getClass)
 
   def main(args: Array[String]): Unit = {

@@ -1,6 +1,6 @@
-package com.hoho.demo.base
+package com.hoho.demo.scala01_base
 
-object Var {
+object Base02_Var {
   def main(args: Array[String]): Unit = {
 
     // 可变变量
@@ -10,7 +10,6 @@ object Var {
     // 不可变变量   仅仅是编译时的约束
     val email = "zhangsan"
     // email = "zhangsan@qq.com"
-
 
   }
 }

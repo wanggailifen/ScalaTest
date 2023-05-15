@@ -1,6 +1,6 @@
-package com.hoho.demo.function
+package com.hoho.demo.scala02_function
 
-object FunctionTest11 {
+object FunctionTest11_recursion {
   def main(args: Array[String]): Unit = {
 
     // 递归

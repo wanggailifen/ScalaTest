@@ -1,4 +1,4 @@
-package com.hoho.demo.function
+package com.hoho.demo.scala02_function
 
 object FunctionTest04_functionObject {
   def main(args: Array[String]): Unit = {
@@ -40,7 +40,7 @@ object FunctionTest04_functionObject {
     println("====函数对象的使用====")
     // TODO 函数对象的使用
     var ff = test _
-    // ff只是函数对象，不加()不能执行  ; 加() 表示执行这个函数
+    // ff只是函数对象，不加()不能执行; 加() 表示执行这个函数
     ff()
 
     println("====将函数作为参数使用====")

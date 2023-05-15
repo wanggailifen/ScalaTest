@@ -1,9 +1,9 @@
-package com.hoho.demo.base.dataType
+package com.hoho.demo.scala01_base.base01_dataType
 
 /**
  * 类型转换
  */
-object DataTypeConvert {
+object DataType02_Convert {
   def main(args: Array[String]): Unit = {
     val s: String = null
     val b: Byte = 10

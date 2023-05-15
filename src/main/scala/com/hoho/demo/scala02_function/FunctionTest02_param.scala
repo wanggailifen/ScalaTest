@@ -1,4 +1,4 @@
-package com.hoho.demo.function
+package com.hoho.demo.scala02_function
 
 object FunctionTest02_param {
   def main(args: Array[String]): Unit = {
@@ -29,7 +29,7 @@ object FunctionTest02_param {
       println(name + "===" + password)
     }
 
-    def test04(name: String = "zhangsan", password: String ="000000"): Unit = {
+    def test04(name: String = "zhangsan", password: String = "000000"): Unit = {
       // scala中 函数的参数默认使用val定义，无法修改
       /*  if (name == null) {
             name = "zhangsan"

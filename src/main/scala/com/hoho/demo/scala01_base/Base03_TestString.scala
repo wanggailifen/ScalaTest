@@ -1,6 +1,6 @@
-package com.hoho.demo.base
+package com.hoho.demo.scala01_base
 
-object TestString {
+object Base03_TestString {
 
   def main(args: Array[String]): Unit = {
 
@@ -26,7 +26,5 @@ object TestString {
         #scala
         #""".stripMargin('#')
     println(data2)
-
-
   }
 }

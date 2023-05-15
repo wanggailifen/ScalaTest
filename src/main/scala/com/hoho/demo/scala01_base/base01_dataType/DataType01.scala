@@ -1,6 +1,6 @@
-package com.hoho.demo.base.dataType
+package com.hoho.demo.scala01_base.base01_dataType
 
-object DataTypeTest {
+object DataType01 {
   /**
    * java中的基本数据类型不是面向对象的
    * 所以scala没有基本数据类型。
@@ -40,7 +40,6 @@ object DataTypeTest {
      *  Nothing是所有类型的子类型
      */
     println(testUnit())
-
 
   }
 

@@ -1,4 +1,4 @@
-package com.hoho.demo.base.circle
+package com.hoho.demo.scala01_base.base02_circle
 
 object ForTest {
   def main(args: Array[String]): Unit = {

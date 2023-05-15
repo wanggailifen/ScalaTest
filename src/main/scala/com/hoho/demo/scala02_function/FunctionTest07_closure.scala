@@ -1,4 +1,4 @@
-package com.hoho.demo.function
+package com.hoho.demo.scala02_function
 
 /**
  * 闭包
@@ -33,6 +33,8 @@ object FunctionTest07_closure {
 
     val inner = outer(10)
     val result = inner(20)
+
     println(result)
+    println(outer(10)(20))
   }
 }

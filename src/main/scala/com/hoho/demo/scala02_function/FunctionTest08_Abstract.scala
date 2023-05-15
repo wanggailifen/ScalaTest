@@ -1,4 +1,4 @@
-package com.hoho.demo.function
+package com.hoho.demo.scala02_function
 
 import scala.util.control.Breaks
 

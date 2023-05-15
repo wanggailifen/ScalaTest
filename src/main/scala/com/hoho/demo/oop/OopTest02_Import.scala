@@ -12,10 +12,10 @@ object Test02_Import {
      * 导入包内所有类使用_
      * 可以在同一行导入一个包类的多个类
      */
-    import com.hoho.demo.function
+    import com.hoho.demo.scala02_function
     //    import java.util._
     //    import java.util.{List, LinkedList}
-    function.testPackageObject()
+    scala02_function.testPackageObject()
 
     /**
      * 屏蔽类

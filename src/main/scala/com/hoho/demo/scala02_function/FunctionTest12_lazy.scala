@@ -1,10 +1,10 @@
-package com.hoho.demo.function
+package com.hoho.demo.scala02_function
 
 
 /**
  * 惰性函数
  */
-object FunctionTest12 {
+object FunctionTest12_lazy {
   def main(args: Array[String]): Unit = {
 
     def test(): String = {

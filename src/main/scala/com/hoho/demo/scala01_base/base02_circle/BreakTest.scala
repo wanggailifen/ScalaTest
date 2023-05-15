@@ -1,4 +1,4 @@
-package com.hoho.demo.base.circle
+package com.hoho.demo.scala01_base.base02_circle
 
 import scala.util.control.Breaks
 import scala.util.control.Breaks._

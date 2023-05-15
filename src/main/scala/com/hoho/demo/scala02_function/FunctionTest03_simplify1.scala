@@ -1,4 +1,4 @@
-package com.hoho.demo.function
+package com.hoho.demo.scala02_function
 
 object FunctionTest03_simplify1 {
   def main(args: Array[String]): Unit = {
@@ -25,6 +25,7 @@ object FunctionTest03_simplify1 {
       因为省略了很多的语法内容，所以变量声明和函数声明很像，所以必须买用关键字区分
      */
     def test04 = "hello"
+    var test044 = "hello"
 
     println(test04)
 

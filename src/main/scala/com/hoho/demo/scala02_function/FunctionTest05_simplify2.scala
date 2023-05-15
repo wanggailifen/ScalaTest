@@ -1,4 +1,4 @@
-package com.hoho.demo.function
+package com.hoho.demo.scala02_function
 
 object FunctionTest05_simplify2 {
   def main(args: Array[String]): Unit = {
