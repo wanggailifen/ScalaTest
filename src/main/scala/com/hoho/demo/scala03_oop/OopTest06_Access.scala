@@ -52,7 +52,7 @@ object OopTest06_Access {
 // 子包
 package sub06 {
 
-  import com.hoho.demo.scala03_oop.OopTest06_Acceess.User
+  import com.hoho.demo.scala03_oop.OopTest06_Access.User
 
   class SubClass {
     def test(): Unit = {
